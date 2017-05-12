@@ -6,7 +6,7 @@ export default  class ChildrenTest extends Component{
     render(){
         return(<ul>
             {React.Children.map(this.props.children,function(child){
-                return(<li>{child}</li>)
+                return(<li>{child}</li>);
             })}
         </ul>)
     }
